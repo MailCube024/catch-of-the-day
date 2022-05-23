@@ -1,0 +1,15 @@
+/*
+  Possible Animations:
+  enter
+  exit
+  appear Must set transitionAppear={true} on animation component
+*/
+.order-enter {
+  background: #f00;
+  transform: translateX(-120%);
+  transition: 5s;
+}
+.order-enter.order-enter-active {
+  background: #ff0;
+  transform: translateX(0);
+}
